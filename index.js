@@ -58,7 +58,7 @@ HTMLDiff.prototype = {
                         reject(error);
                     } else {
                         var isDifferent = result.code === BlinkDiff.RESULT_DIFFERENT;
-                        var outcome = { html1: html1, html2: html2, success: !isDifferent };
+                        var outcome = { success: !isDifferent };
                         if (!isDifferent) {
                             fs.unlink(outputImage);
                         } else {

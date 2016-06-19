@@ -12,8 +12,8 @@ new HTMLDiff("output").diff("baseline/page1.html", "test/page1.html");
 Examples of the output are:
 
 ```
-{ html1: 'baseline/page2.html', html2: 'test/page2.html', success: true }
+{ "success": true }
 ```
 ```
-{ html1: 'baseline/page1.html', html2: 'test/page1.html', success: false, snapshot: 'output/5757828440.png' }
+{ "success": false, "snapshot": "output/5757828440.png" }
 ```

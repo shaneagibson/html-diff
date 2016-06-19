@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "blink-diff": {
+      "version": "1.0.12",
+      "from": "blink-diff@latest",
+      "resolved": "https://registry.npmjs.org/blink-diff/-/blink-diff-1.0.12.tgz",
+      "dependencies": {
+        "pngjs-image": {
+          "version": "0.11.6",
+          "from": "pngjs-image@0.11.6",
+          "resolved": "https://registry.npmjs.org/pngjs-image/-/pngjs-image-0.11.6.tgz",
+          "dependencies": {
+            "pngjs": {
+              "version": "2.3.1",
+              "from": "pngjs@2.3.1",
+              "resolved": "https://registry.npmjs.org/pngjs/-/pngjs-2.3.1.tgz"
+            }
+          }
+        }
+      }
+    },
+    "webshot": {
+      "version": "0.18.0",
+      "from": "webshot@latest",
+      "resolved": "https://registry.npmjs.org/webshot/-/webshot-0.18.0.tgz"
+    },
+    "underscore": {
+      "version": "1.8.3",
+      "from": "underscore@latest",
+      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz"
+    }
+  }
+}

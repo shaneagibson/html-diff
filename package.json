@@ -1,0 +1,22 @@
+{
+  "name": "html-diff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Shane Gibson",
+    "email": "shane@epsilontechnologies.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaneagibson/html-diff.git"
+  },
+  "dependencies": {
+    "blink-diff": "1.0.12",
+    "iconv-lite": "^0.4.13",
+    "promise": "^7.1.1",
+    "request": "^2.72.0",
+    "stream-buffers": "^3.0.0",
+    "underscore": "1.8.3",
+    "webshot": "0.18.0"
+  }
+}

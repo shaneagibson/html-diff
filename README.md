@@ -6,7 +6,9 @@ A simple tool in Node JS for visually comparing two HTML files and reporting whe
 ## Usage
 
 ```
-new HTMLDiff().diff("baseline/page1.html", "test/page1.html");
+new HTMLDiff().diff("baseline/page1.html", "test/page1.html").then(function(output) {
+  ...
+});
 ```
 
 Examples of the output are:

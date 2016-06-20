@@ -15,12 +15,16 @@ Examples of the output are:
 
 ```
 { 
-  "success": true 
+  "match": true 
 }
 ```
 ```
 { 
-  "success": false, 
-  "snapshot": "output/5757828440.png" 
+  "match": false, 
+  "errors": [ 
+    {
+      "snapshot": "output/5757828440.png"
+    }
+  ]
 }
 ```
